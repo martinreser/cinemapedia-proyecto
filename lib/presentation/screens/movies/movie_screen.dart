@@ -79,7 +79,7 @@ class MovieScreenState extends ConsumerState<MovieScreen> {
           Padding(
             padding: const EdgeInsets.fromLTRB(10, 10, 30, 10),
             child: Icon(
-              Icons.ios_share_outlined,
+              Icons.favorite_border,
               color: colors.secondary,
             ),
           ),
