@@ -14,4 +14,9 @@ class HumanFormats {
 
     return formattedNumber;
   }
+
+  static String returnBool(bool boolean) {
+    if (boolean) return 'Sí';
+    return 'No';
+  }
 }
